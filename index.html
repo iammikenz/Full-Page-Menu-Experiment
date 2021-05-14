@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Full Screen Menu</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<img
+				src="imgs/Logo-8-removebg-preview.png"
+				class="logo"
+				alt="Mondli Logo"
+			/>
+			<form>
+				<input
+					type="text"
+					placeholder="Search for insights, services and people"
+				/>
+			</form>
+			<nav id="menu">
+				<ul>
+					<li><a href="#">Who we are</a></li>
+					<li><a href="#">What we do</a></li>
+					<li><a href="#">What we think</a></li>
+					<li><a href="#">Careers at Mondli</a></li>
+					<li><a href="#">Our Locations</a></li>
+					<li><a href="#">Get in Touch</a></li>
+				</ul>
+				<img
+					src="/imgs/close icon.svg"
+					class="close-icon"
+					alt=""
+					onClick="closeMenu()"
+				/>
+				<img src="/imgs/menu-icon.svg" class="menu-icon" alt="" />
+			</nav>
+			<img
+				src="/imgs/menu-icon.svg"
+				class="menu-icon"
+				alt=""
+				onClick="openMenu()"
+			/>
+		</header>
+		<script src="script.js"></script>
+	</body>
+</html>
